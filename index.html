@@ -19,11 +19,13 @@
 }
 
 .hit {
-    color: green;
+    color: lightgreen;
+    font-weight: bold;
 }
 
 .miss {
-    color: black;
+    color: gray;
+    font-weight: bold;
 }
 
 .footer {
@@ -40,7 +42,7 @@
         <div class="container">
             <div>
                 <p>
-                    <h1>내일 KOSPI <sub>(acc = 0.75)</sub></h1>
+                    <h1>내일 KOSPI <sub>(acc = 3 / 5 = 0.60)</sub></h1>
                 </p>
             </div>
 
@@ -50,39 +52,45 @@
                         <th scope="col">날짜</th>
                         <th scope="col">예상</th>
                         <th scope="col">종가</th>
-                        <th scope="col">적중</th>
+                        <th scope="col">맞음</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="row">2021-07-02</th>
+                        <th scope="row">2021-07-05</th>
                         <td class="up">상승</td>
                         <td class="unknown">-</td>
                         <td class="unknown">-</td>
                     </tr>
                     <tr>
+                        <th scope="row">2021-07-02</th>
+                        <td class="up">상승</td>
+                        <td class="down">3,281 (-0.28, -0.01%) </td>
+                        <td class="miss">틀림</td>
+                    </tr>
+                    <tr>
                         <th scope="row">2021-07-01</th>
                         <td class="down">하강</td>
-                        <td class="down">3282.06 (-14.62, 0.44%)</td>
-                        <td class="hit">적중</td>
+                        <td class="down">3282.06 (-14.62, -0.44%)</td>
+                        <td class="hit">맞음</td>
                     </tr>
                     <tr>
                         <th scope="row">2021-06-30</th>
                         <td class="up">상승</td>
                         <td class="up">3296.68 (+10.00, +0.30%)</td>
-                        <td class="hit">적중</td>
+                        <td class="hit">맞음</td>
                     </tr>
                     <tr>
                         <th scope="row">2021-06-29</th>
                         <td class="down">하강</td>
                         <td class="down">3286.68 (-15.21, -0.46%)</td>
-                        <td class="hit">적중</td>
+                        <td class="hit">맞음</td>
                     </tr>
                     <tr>
                         <th scope="row">2021-06-28</th>
                         <td class="up">상승</td>
                         <td class="down">3301.89 (-0.95, -0.03%)</td>
-                        <td class="miss">비적중</td>
+                        <td class="miss">틀림</td>
                     </tr>
                     <tr>
                         <th scope="row">2021-06-25</th>
