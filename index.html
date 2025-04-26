@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <title>NASDAQ100 Trend</title>
+        <title>Trend</title>
         <style>
 
 .title {
@@ -19,6 +19,11 @@
     text-align: right;
 }
 
+.section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .up {
     color: #228B22;
 }
@@ -31,7 +36,7 @@
     </head>
     <body>
         <div class="container">
-            <div>
+            <div class="section">
                 <p>
                     <h1>NASDAQ100 월간 추세 예상</h1>
                 </p>
@@ -50,6 +55,31 @@
                             <td><span class="title">2025-04-26</span></td>
                             <td>19,432.56</td>
                             <td class="up">+8.87%</td>
+                            <td>-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="section">
+                <p>
+                    <h1>미국 10년물 채권수익률 월간 추세 예상</h1>
+                </p>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">일자</th>
+                            <th scope="col">수익률</th>
+                            <th scope="col">예상</th>
+                            <th scope="col">실제</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="title">2025-04-26</span></td>
+                            <td>4.235</td>
+                            <td class="down">4.042</td>
                             <td>-</td>
                         </tr>
                     </tbody>
